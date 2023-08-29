@@ -5,12 +5,13 @@ plugins {
 
 android {
     namespace = "com.example.assessment4_fetching"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.assessment4_fetching"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
+
         versionCode = 1
         versionName = "1.0"
 
@@ -34,7 +35,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures{
-        viewBinding;true
+        viewBinding = true
     }
 }
 
